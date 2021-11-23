@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LocalConns)(type Legacy)(uri G:/Code/c64fpga/cartboards/Connector_Generic.lib)(options "")(descr ""))
+)

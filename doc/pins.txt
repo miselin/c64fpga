@@ -1,0 +1,58 @@
+
+User Port
+=========
+
+24 pins. J2 connector. 3.96mm pitch, expects 1.57mm thick PCBs.
+
+Pin Name    Description
+1   GND     Ground
+2   +5V     +5 VDC (100 mA max)
+3   /RESET  Reset, will force a cold start. Also a reset output for devices.
+4   CNT1    Counter 1, from CIA #1
+5   SP1     Serial Port 1, from CIA #1
+6   CNT2    Counter 2, from CIA #2
+7   SP2     Serial port 2, from CIA #2
+8   /PC2    Handshaking line, from CIA #2
+9   ATN     Serial attention in
+10  9VAC    9 VAC (+ phase) (100 mA max)
+11  9VAC    9 VAC (- phase) (100 mA max)
+12  GND     Ground
+A   GND     Ground
+B   /FLAG2  Flag 2
+C   PB0     Data 0
+D   PB1     Data 1
+E   PB2     Data 2
+F   PB3     Data 3
+H   PB4     Data 4
+J   PB5     Data 5
+K   PB6     Data 6
+L   PB7     Data 7
+M   PA2     PA2
+N   GND     Ground
+
+- 4x GND
+- 1x 5 VDC
+- 2x 9 VAC (two phases)
+- 15x IO
+
+Mapping:
+- 5 VDC => Mercury 5 VDC input
+- GND => Ground network
+- IO => Mercury 5V-tolerant GPIO
+
+Expansion Port
+==============
+
+44 pins. 2.54mm pitch (0.1"). 2-row edge (both sides of PCB).
+
+- 2x 5 VAC
+- 4x GND
+- 38x IO (two clocks, 36 IO pins)
+
+Mapping:
+- 5 VDC => Mercury 5 VDC input
+- GND => Ground network
+- 30x IO => Mercury 5V-tolerant GPIO
+- 8x IO (2 clocks, 6 data pins) => Level Shifters + High-Speed IO
+
+todo: decide what goes on high-speed (9 total pins)

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Samac_CES-106-01-T-S
+#
+DEF Samac_CES-106-01-T-S J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "Samac_CES-106-01-T-S" 650 200 50 H V L CNN
+F2 "CES-106-XX-Y-S" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CES-106-01-T-S.pdf" 650 0 50 H I L CNN
+F4 "6 Position, .100&quot; Closed Entry Low Profile Socket Strip" 650 -100 50 H I L CNN "Description"
+F5 "200-CES10601TS" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.com/Search/Refine.aspx?Keyword=200-CES10601TS" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "SAMTEC" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "CES-106-01-T-S" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
