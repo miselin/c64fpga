@@ -1,0 +1,10 @@
+
+# For the C64 there's two clocks that we consume.
+# CLK0 is "Phase 2 Clock", 1.02 MHz
+# CLK1 is "Dot Clock", 8.18 MHz
+
+NET "CIO<0>"  TNM_NET = "PHI2"; 
+TIMESPEC "TS_PHI2" = PERIOD "PHI2" 122 ns HIGH 50 %;
+
+NET "CIO<0>"  TNM_NET = "DOT"; 
+TIMESPEC "TS_DOT" = PERIOD "DOT" 978 ns HIGH 50 %;
