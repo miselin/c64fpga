@@ -12,7 +12,7 @@ with the FPGA I/O pins.
 The [Mercury 2 FPGA board](https://www.micro-nova.com/mercury-2) on the
 other hand supports 40 5V-tolerant GPIOs, which makes the PCB simpler and
 does not require extra level shifting. A design to take advantage of this
-has not been finalized yet.
+is in the `cartridge_mercury2` directory.
 
 There is no current design in progress that integrates the FPGA directly
 without utilizing an additional product.
