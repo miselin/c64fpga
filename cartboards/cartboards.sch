@@ -179,14 +179,7 @@ $EndComp
 Wire Wire Line
 	7500 3700 7750 3700
 Wire Wire Line
-	8700 5250 8700 4900
-Wire Wire Line
 	8700 3700 8400 3700
-Wire Wire Line
-	8400 4700 8700 4900
-Connection ~ 8700 4900
-Wire Wire Line
-	8700 4900 8700 3700
 Wire Wire Line
 	3600 2850 3600 2750
 Wire Wire Line
@@ -1101,6 +1094,13 @@ Wire Wire Line
 	7600 4600 7750 4600
 Wire Wire Line
 	6350 4550 7600 4550
+Wire Wire Line
+	8400 4700 8700 4700
+Connection ~ 8700 4700
+Wire Wire Line
+	8700 4700 8700 3700
+Wire Wire Line
+	8700 4700 8700 5250
 Wire Bus Line
 	10200 3050 10200 4100
 Wire Bus Line

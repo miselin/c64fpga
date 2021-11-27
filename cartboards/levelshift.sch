@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 619B34A6
 P 5000 4000
 AR Path="/619C8BAD/619B34A6" Ref="J2"  Part="1" 
 AR Path="/619D5859/619B34A6" Ref="J4"  Part="1" 
-F 0 "J2" H 5628 3796 50  0000 L CNN
+F 0 "J4" H 5628 3796 50  0000 L CNN
 F 1 "CES-106-01-T-S" H 5628 3705 50  0000 L CNN
 F 2 "CES-106-XX-Y-S" H 5650 4100 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/CES-106-01-T-S.pdf" H 5650 4000 50  0001 L CNN
@@ -62,7 +62,7 @@ U 1 1 619B29BD
 P 5000 3000
 AR Path="/619C8BAD/619B29BD" Ref="J1"  Part="1" 
 AR Path="/619D5859/619B29BD" Ref="J3"  Part="1" 
-F 0 "J1" H 5628 2796 50  0000 L CNN
+F 0 "J3" H 5628 2796 50  0000 L CNN
 F 1 "CES-106-01-T-S" H 5628 2705 50  0000 L CNN
 F 2 "CES-106-XX-Y-S" H 5650 3100 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/CES-106-01-T-S.pdf" H 5650 3000 50  0001 L CNN
